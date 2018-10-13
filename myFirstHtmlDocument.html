@@ -1,0 +1,47 @@
+<html>
+    
+<h1>This is Header 1</h1>
+<h2>This is Header 2</h2>
+<h3>This is Header 3</h3>
+<p> this is a paragraph</p>
+<button id="mybutton" onclick="doSomeThing()">Login</button>
+</html>
+
+
+
+<style>
+h1{
+   background-color: aqua;
+   color:blueviolet; 
+   }
+   h2{
+       font-size: 74px;
+       background-color: red;
+   }
+   p{
+       font-style: italic;
+       
+
+   }
+
+    </style>
+    <script>
+        function doSomeThing()
+        {
+            alert("You Clicked me!");
+            document.getElementById("mybutton").innerHTML="logout";
+        }
+        var x=5;
+        x=10;
+        var firstName="Joe";
+        firstName='paul';
+        alert(firstName);
+        function funkySum(firstNumber,secondNumber){
+            var result=firstNumber+secondNumber+secondNumber;
+        return result;
+        }
+      var ThisIsTheResult= funkySum(2,5);
+      alert(ThisIsTheResult);
+        
+    
+    </script>
